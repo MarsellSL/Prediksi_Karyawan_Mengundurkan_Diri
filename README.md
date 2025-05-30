@@ -31,3 +31,18 @@ Proyek ini bertujuan untuk memprediksi kemungkinan seorang karyawan mengundurkan
    from sklearn.naive_bayes import GaussianNB
    from sklearn.metrics import confusion_matrix, accuracy_score
    import matplotlib.pyplot as plt
+
+2. **Pra-pemrosesan Data**
+Data dummy dibersihkan dan dikodekan menggunakan LabelEncoder dan distandardisasi dengan StandardScaler.
+
+3. **Training dan Testing**
+Data dibagi menjadi data latih dan uji menggunakan train_test_split.
+
+4. **Modeling**
+Algoritma yang digunakan adalah Naive Bayes Gaussian untuk klasifikasi.
+
+5. **Evaluasi Model**
+Evaluasi dilakukan menggunakan confusion_matrix dan accuracy_score.
+
+6. **Visualisasi**
+Plot klasifikasi divisualisasikan menggunakan matplotlib.
